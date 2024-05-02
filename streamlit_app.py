@@ -26,6 +26,7 @@ def main():
     st.write("Sentiment analysis")
 
 if __name__ == "__main__":
-    while not conn:
-        conn = make_connection()
+    if st.button("Proceed"):
+        while not conn:
+            conn = make_connection()
     main()
