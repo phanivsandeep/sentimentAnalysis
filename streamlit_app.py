@@ -29,4 +29,4 @@ if __name__ == "__main__":
     if st.button("Proceed"):
         while not conn:
             conn = make_connection()
-    main()
+        main()
